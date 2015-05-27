@@ -18,17 +18,7 @@ public class CsaController {
 		ModelAndView a = new ModelAndView("index"); // link
 		return a;
 	}
-
-	// -------------------------------------------------------//
-	// ---------------------- Admin --------------------------//
-	// -------------------------------------------------------//
-
-	@RequestMapping(value = "/admin")
-	public ModelAndView admin() {
-		ModelAndView b = new ModelAndView("csa/admin"); // dairy
-															// (����к����������ҷ��������)/
-		return b;
-	}
+ 
 
 	// ------------- �ӹǳ������ͧ��÷ҧ�����
 	@RequestMapping(value = "/single-admin")
